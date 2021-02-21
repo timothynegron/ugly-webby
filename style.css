@@ -1,0 +1,99 @@
+
+h1 {
+    color: yellow; /* tn */
+    text-decoration: overline; /* tn */
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 275px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    transform: skewY(30deg); /*tn*/
+}
+
+h3 { /* tn */
+  color: orange;
+}
+
+p {
+    color: yellowgreen; /*tn*/
+    background: aqua; /*tn*/
+    font-family: 'Times New Roman', Times, sans-serif; /*tn*/
+    text-decoration: line-through; /*tn*/
+    font-size: 30px; /*tn*/
+    line-height: 24px;
+    margin: 0 3 24px; /*tn*/
+    text-align: justify;
+    text-justify: inter-word;
+    transform: rotate(180deg); /*tn*/
+}
+
+
+
+ul, ol {
+    background: red;  /* tn */
+    margin: 20px;
+    padding: 0;
+    
+}
+
+li {
+    color: yellow; /*tn*/
+    font: 200 20px/1.5 cursive, Verdana, sans-serif; /*tn*/
+    border-bottom: 1px solid #ccc;
+    font-style: italic; /*tn*/
+    transform: rotate(-40deg); /*tn*/
+}
+   
+li:last-child {
+    border: none;
+}
+
+form {
+    height:110px;
+    width:190px;
+    margin:auto;
+    border:1px #CCC solid;
+    padding:10px;
+    transform: scaleY(2); /*tn*/
+}
+
+textarea {
+    font-family: "Lucid Console"; /*tn*/
+    font-size: 30px; /*tn*/
+    color: aqua;  /* tn */
+    background: purple; /*tn*/
+    text-decoration: underline overline; /*tn*/
+    margin: 20px;
+    width: 300px; /*tn*/
+    height: 150px; /*tn*/
+    border-color: green; /*tn*/
+    transform: skewY(20deg);/*tn*/
+}
+    
+input { /*tn*/
+    background: blue; /*tn*/
+    text-decoration: line-through; /*tn*/
+    font-size: 25px;
+    padding:100px;
+    margin:5px;
+    border-color: green; /*tn*/
+    border-bottom-width: 150px; /*tn*/
+    border-top-width: 150px; /*tn*/
+    transform: skewY(-50deg);/*tn*/
+}
+
+body {  /* tn */
+  filter: contrast(200%);
+  background-color: aquamarine;
+}
+
+button { /*tn*/
+  color: red;
+  background: green;
+  text-decoration: underline overline;
+  font-size: 100px;
+  width: 100%;
+  height: 200;
+  transform: rotate(90deg);
+}
